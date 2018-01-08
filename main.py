@@ -6,8 +6,8 @@ import base64
 # 获取access_token
 def getAccessToken():
     #请求参数
-    client_id = 'Vuv6zCIyGTmHFt5KpkYLnm8d' #替换为你的百度API Key
-    client_secret = 'UUbNO5wDZOtfKRMxVUZ8GhLxiaqcdAdF' #替换为你的百度Secret Key
+    client_id = '[替换为你的百度API Key]'
+    client_secret = '[替换为你的百度Secret Key]'
     grant_type = 'client_credentials'
 
     request_url = 'https://aip.baidubce.com/oauth/2.0/token'
